@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@400;700&display=swap');
+
+body
+{
+    background-color: antiquewhite;
+}
+/* The asterisk (*) is known as the CSS universal selectors. It can be used to select any and all types of elements in an HTML page. */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 64px;
+    background-color: black;
+    color: white;
+}
+
+.brand img
+{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+nav ul li
+{
+    padding: 0 12px;
+}
+
+.container
+{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Dancing Script', cursive;;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 34px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+
+.bottom
+{
+    position: sticky;
+    height: 90px;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons
+{
+    margin: 12px 2px;
+}
+
+#myProgressBar
+{
+    width: 80vw;
+    cursor: pointer;
+
+}
+
+.songItemContainer
+{
+    margin-top: 34px;
+}
+
+.songItem
+{
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img
+{
+    width: 50px;
+    margin: 0 23px;
+}
+
+.timestamp
+{
+    margin: 0 23px;
+}
+
+.timestamp i
+{
+    cursor: pointer;
+}
+
+.songInfo
+{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img
+{
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
